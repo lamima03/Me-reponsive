@@ -152,6 +152,7 @@ li {
   display: flex;
   flex-wrap: wrap;
   margin: 0;
+  
 }
 
 .about__description,
@@ -311,6 +312,7 @@ li {
 
 .gallery {
   display: flex;
+ 
 }
 
 .gallery__item {
@@ -353,6 +355,8 @@ li {
   font-size: 0.9rem;
   color: var(--black-degraded) !important;
   transition: var(--transition);
+  
+  
 }
 
 .footer__item:hover {
@@ -384,10 +388,37 @@ li {
     font-size: 1.5rem;
   }
 
-  .about {
+  .about, #stand{
     flex-direction: column-reverse;
   }
-}
+  #stand { 
+    flex-direction: column;
+  }
+  .expertise__container{
+    flex-direction: column;
+  }
+  .expertise__description {
+    margin-top: 10rem;
+    
+  }
+  .gallery{
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+    
+  .footer__list{
+    display: flex;
+    justify-content: center;
+  }
+  .footer__icon{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3rem 7rem;
+    color: var(--black-degraded) !important; 
+
+  }
+  }
+
 
 @media screen and (min-width: 1025px) {
   .nav__list {
