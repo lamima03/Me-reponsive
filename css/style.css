@@ -343,15 +343,28 @@ li {
 }
 
 .footer__list {
-  width: 20%;
+  width: 50%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+.footer__icon {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3rem ;
+}
+
+.icon__item{
+  padding: 0 0.5rem;
+
+  }
+
 .footer__item {
   font-family: var(--primary-font);
-  padding: 0 1rem;
+  padding: 0 3rem;
   font-size: 0.9rem;
   color: var(--black-degraded) !important;
   transition: var(--transition);
@@ -409,12 +422,11 @@ li {
   .footer__list{
     display: flex;
     justify-content: center;
+    
   }
-  .footer__icon{
-    display: flex;
-    justify-content: space-evenly;
-    margin: 3rem 7rem;
-    color: var(--black-degraded) !important; 
+  #footer__icon{
+   padding: 7rem;
+
 
   }
   }
