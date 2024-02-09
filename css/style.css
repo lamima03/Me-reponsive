@@ -405,11 +405,11 @@ li {
     font-size: 1.5rem;
   }
 
-  .about, #stand{
+  .about{
     flex-direction: column-reverse;
   }
-  #stand { 
-    flex-direction: column;
+  .about__image {
+    flex-basis: 100%;
   }
   .expertise__container{
     flex-direction: column;
@@ -430,7 +430,7 @@ li {
     
   }
   .footer__icon{
-   padding-top: 2rem;
+   padding-top: 3rem;
    display: flex;
    justify-content: center;
    
