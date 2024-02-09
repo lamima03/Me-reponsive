@@ -371,6 +371,10 @@ li {
   
   
 }
+.footer__iconsite{
+  padding: 0 1rem;
+  
+}
 
 .footer__item:hover {
   color: var(--white-color) !important;
@@ -422,10 +426,14 @@ li {
   .footer__list{
     display: flex;
     justify-content: center;
+    padding-top: 1rem;
     
   }
-  #footer__icon{
-   padding: 7rem;
+  .footer__icon{
+   padding-top: 2rem;
+   display: flex;
+   justify-content: center;
+   
 
 
   }
